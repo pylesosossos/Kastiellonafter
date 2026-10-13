@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer aura glow -->
+    <path
+        android:strokeColor="#5B21B6"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M54,26 L68,40 L68,68 L54,82 L40,68 L40,40 Z" />
+
+    <!-- Occult orbit ring -->
+    <path
+        android:strokeColor="#06B6D4"
+        android:strokeWidth="1.0"
+        android:fillColor="#00000000"
+        android:pathData="M54,29 C67.8,29 79,40.2 79,54 C79,67.8 67.8,79 54,79 C40.2,79 29,67.8 29,54 C29,40.2 40.2,29 54,29 Z" />
+
+    <!-- Void Heart Outer Diamond / Crystal -->
+    <path
+        android:pathData="M54,30 L74,50 L54,78 L34,50 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="34"
+                android:startY="30"
+                android:endX="74"
+                android:endY="78"
+                android:type="linear">
+                <item android:color="#9333EA" android:offset="0.0" />
+                <item android:color="#4C1D95" android:offset="0.6" />
+                <item android:color="#1E1B4B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top Facet Left -->
+    <path
+        android:pathData="M54,30 L34,50 L54,54 Z"
+        android:fillColor="#7E22CE" />
+
+    <!-- Top Facet Right -->
+    <path
+        android:pathData="M54,30 L74,50 L54,54 Z"
+        android:fillColor="#A855F7" />
+
+    <!-- Bottom Facet Left -->
+    <path
+        android:pathData="M34,50 L54,78 L54,54 Z"
+        android:fillColor="#3B0764" />
+
+    <!-- Bottom Facet Right -->
+    <path
+        android:pathData="M74,50 L54,78 L54,54 Z"
+        android:fillColor="#581C87" />
+
+    <!-- Central Eldritch Eye / Fissure Core -->
+    <path
+        android:pathData="M54,42 C60,48 60,60 54,66 C48,60 48,48 54,42 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="42"
+                android:endX="54"
+                android:endY="66"
+                android:type="linear">
+                <item android:color="#22D3EE" android:offset="0.0" />
+                <item android:color="#E11D48" android:offset="0.5" />
+                <item android:color="#06B6D4" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Core Pupil -->
+    <path
+        android:pathData="M54,51 C55.6,51 57,52.4 57,54 C57,55.6 55.6,57 54,57 C52.4,57 51,55.6 51,54 C51,52.4 52.4,51 54,51 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Rune Shards Floating Orbit -->
+    <path
+        android:pathData="M54,23 L56,26 L54,29 L52,26 Z"
+        android:fillColor="#06B6D4" />
+    <path
+        android:pathData="M54,79 L56,82 L54,85 L52,82 Z"
+        android:fillColor="#06B6D4" />
+    <path
+        android:pathData="M25,52 L28,54 L25,56 L22,54 Z"
+        android:fillColor="#C084FC" />
+    <path
+        android:pathData="M83,52 L86,54 L83,56 L80,54 Z"
+        android:fillColor="#C084FC" />
+</vector>

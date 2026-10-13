@@ -1,0 +1,6 @@
+{
+  "name": "Сердце Бездны",
+  "description": "Атмосферная Dark Fantasy и Cosmic Horror Idle Clicker RPG с глубокой прокачкой, ритуалами, артефактами и престижем.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
